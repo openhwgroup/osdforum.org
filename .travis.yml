@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+- '10'
+- '12'
+install:
+- npm install
+- wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb
+- sudo dpkg -i hugo*.deb
+script:
+- npm run production
+- hugo
+deploy:
+  local-dir: public
+  repo: osdforum/osdforum.org
+  target-branch: gh-pages
+  provider: pages
+  keep-history: true
+  skip-cleanup: true
+  github_token: "$GITHUB_TOKEN"
+  email: chris.guindon@eclipse-foundation.org
+  name: Christopher Guindon
+#  fqdn: www.osdforum.org
+  on:
+    branch: master
+    node_js: '10'
+env:
+  global:
+    secure: svUl0/AwWQxZsDuN8z7gr2Zr28OPAi+ei/3zvQtCd6IT3WSzDW5XVfJWGw1TXIV1nbu1HrCqAVAH6BVO1LgnHY0qYUpPylvIy3E5cJqZKXfn/p0nx0Iy/7gf2snRNH6ddIY+Jm884yRRs1oSlD7mNyPVOJaJtR//ED8lpLEKU7ka8SN1NqUHyQiIFb8POIKZMXhiGMPiUGWJO/xuaNqGVnQts8rnQr0v9oeKOXZly6w/28bXW54EmQ6PqW/DyiARA+T/U4Ic1ksK4r6RT4DH5koipQNHdIeOzS8C9Stcwm++Upxafj0qhvRratiqymBMYo0yROoH2Ny/pSFdMuKyNWWZ8sHozt8q6tL55l7Ep9Orb8xN98HxjG2tsGazweAjUw8RmswQ5GR5dT/PHvjxbAQvpkHCvuntzAYWrAWuE63w9znTMefo2Wb4aJ/rZN9pEAJqxxE1adhb93cBZGgumZ9HY/Y+nV1Z6+D3wNIusrEHushy+dvBhRM0SfGrmAPGUVD8r6ov0C/06A+NSzoj/pkHz4nLqMfvNr1Ng2quDfUs0G64kLRgL5Y7PagzDIHlLPJG3ruKgTwc/1eM2zmb28deLFHwY9wBTHUXgoAwG/SEk+B9QziC++YXXfkDlsjgh+oxePh2D/SvIjj+/EYnUnJROpaJ9Aptv8dlhCKqlKo=
