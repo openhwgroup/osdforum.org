@@ -1,0 +1,47 @@
+baseurl = "https://openhwgroup.github.io/osdforum.org/"
+DefaultContentLanguage = "en"
+title = "" 
+theme = "eclipsefdn-hugo-solstice-theme"
+metaDataFormat = "yaml"
+#googleAnalytics = ""
+disableKinds = ["taxonomyTerm"]
+themesDir = "node_modules/"
+
+[Params]
+  google_tag_manager = "GTM-5WLCZXC"
+  description = "The Open Source Developer Forum is a one day workshop that brings open source software and hardware (chips, boards and systems) developers together to collaborate and learn."
+  subtitle = ""
+  seo_title_suffix = " | Open Source Developer Forum | OpenHW Group"
+  keywords = ["open-source", "risc-v", "hardware", "software", "hw", "sw", "eclipse ide"]
+  logo = "images/openhw-landscape.svg"
+  styles = "css/styles.css"
+  favicon = "images/favicon.ico"
+# share_img = ""
+  gcse = ""
+# subtheme = ""
+  header_wrapper_class = "header-default-bg-img"
+  js = "js/solstice.js"
+# call_for_action_text = ""
+# call_for_action_url = ""
+# call_for_action_icon = ""
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[Author]
+  name = "OpenHW Group"
+  website = "https://www.openhwgroup.org"
+  email = "info@openhwgroup.org"
+# facebook = ""
+  twitter = "openhwgroup"
+# youtube = ""
+# googleplus = ""
+# linkedin = ""
+
+[permalinks]
+  news = "/:sections/:year/:month/:day/:slug/"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
