@@ -11,7 +11,7 @@ script:
 - hugo
 deploy:
   local-dir: public
-  repo: osdforum/osdforum.org
+  repo: openhwgroup/osdforum.org
   target-branch: gh-pages
   provider: pages
   keep-history: true
