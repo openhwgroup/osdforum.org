@@ -18,6 +18,7 @@ deploy:
   github_token: "$GITHUB_TOKEN"
   email: chris.guindon@eclipse-foundation.org
   name: Christopher Guindon
+  fqdn: www.osdforum.org
   on:
     branch: master
     node_js: '10'

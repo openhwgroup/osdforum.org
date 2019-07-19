@@ -1,4 +1,4 @@
-baseurl = "https://openhwgroup.github.io/osdforum.org/"
+baseurl = "https://www.osdforum.org/"
 DefaultContentLanguage = "en"
 title = "" 
 theme = "eclipsefdn-hugo-solstice-theme"
