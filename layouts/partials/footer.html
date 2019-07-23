@@ -15,26 +15,20 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
-        {{- with .Site.Params.logo }}
-          <a title="{{ $.Site.Title}}" href="{{ "" | absLangURL }}">
-            <img width="250" class="logo-eclipse-default img-responsive hidden-xs" src="{{ . | absURL }}" alt="{{ $.Site.Title}}" />
+          <a title="{{ $.Site.Title}}" href="https://www.openhwgroup.org">
+            <img width="250" class="logo-eclipse-default img-responsive hidden-xs" src="/images/openhw-landscape.svg" alt="{{ $.Site.Title}}" />
           </a>
-        {{ end }}
       </div>
       <div class="col-sm-6">
         <ul class="nav">
-          <li><a href="/#news">News and Events</a></li>
-          <li><a href="/#core-v-family">CORE-V Family</a></li>
-          <li><a href="/#testimonials">Testimonials</a></li>
-          <li><a href="/#partners-sponsors">Partners and Sponsors</a></li>
+          <li><a href="/#about-us">About Us</a></li>
+          <li><a href="/#contact-us">Contact Us</a></li>
         </ul>
       </div>
       <div class="col-sm-6">
         <ul class="nav">
           <li><a href="/legal/privacy">Privacy Policy</a></li>
           <li><a href="/legal/terms-of-use">Terms of Use</a></li>
-          <li><a href="/#about-us">About Us</a></li>
-          <li><a href="/#contact-us">Contact Us</a></li>
         </ul>
       </div>
       <div class="col-sm-4">
