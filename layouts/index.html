@@ -1,0 +1,149 @@
+
+{{ define "header"}}
+    <a class="sr-only" href="#content">Skip to main content</a>
+    <header class="header-wrapper{{- with .Params.header_wrapper_class | default .Site.Params.header_wrapper_class }} {{ . }}{{end}}" id="header-wrapper">
+      {{ partial "navbar.html" . }}
+      {{ if isset .Page.Params "headline" }}
+		<div class="jumbotron featured-jumbotron margin-bottom-0 padding-top-40">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-xs-24 padding-top-40">
+		        <h1>{{ .Page.Params.headline }}</h1>
+		         {{ if isset .Page.Params "subtitle" }}
+		           <h2 class="highlight">{{ .Page.Params.subtitle }}</h2>
+		         {{ end }}
+					<p>The Open Source Developer Forum is a one day workshop that
+						brings open source software and hardware (chips, boards and
+						systems) developers together to collaborate and learn. The agenda
+						for the day will be published shortly and will include talks from
+						leading industry and academic experts in the field of open source
+						development and will also include a hands on bring up session of a
+						RISC-V based development board that attendees can keep. Made
+						possible by the generous support of our sponsors, the OSDForum is
+						a non-profit event with low attendee fees of $50 for industry
+						attendees and $25 for academic attendees (includes the full day of
+						talks, breaks, lunch and a RISC-V development board).</p>
+					<p><strong>Registration is limited, so don't delay - register today!</strong></p>
+					<p>The OSDForum is co-hosted by the Eclipse Foundation, CMC Microsystem and the OpenHW Group.</p>
+		         <p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	  {{ end }}
+    </header>
+{{ end }}
+
+{{ define "main" }}
+    <section class="container sponsor-images margin-bottom-40" id="sponsors">
+        <div class="row">
+            <h2 class="highlight left">Sponsored by</h2>
+        </div>
+        <ul class="list-inline text-center">
+            <li>
+                <a href="https://www.investottawa.ca/">
+                    <img class="img img-responsive" src="/images/sponsors/invest-ottawa.png" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.eclipse.ca/">
+                    <img class="img img-responsive" src="/images/sponsors/eclipse-foundation.png" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cmc.ca">
+                    <img class="img img-responsive" src="/images/sponsors/cmc-microsystems.png" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.openhwgroup.org/#core-v-family">
+                    <img class="img img-responsive" src="/images/sponsors/core-v.png" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.openhwgroup.org">
+                    <img class="img img-responsive" src="/images/sponsors/openhw.png" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.btadesignservices.com/">
+                    <img class="img img-responsive" src="/images/sponsors/bta-design-services.png" />
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- 
+    <section class="container side-by-side" id="about">
+        <div class="row">
+            <div class="col-xs-24 col-sm-12 match-height-item-by-row">
+                <h2 class="highlight left">About</h2>
+                <p>Vivamus lacinia laoreet purus, non maximus augue. Cras sodales tellus sed turpis bibendum, eu facilisis sapien ornare. Duis et augue purus. Proin orci felis, volutpat vel orci nec, facilisis finibus odio. Duis non odio molestie, malesuada ipsum vitae, finibus justo. Nullam eget est vulputate, congue diam vel, sagittis lorem. Curabitur interdum, libero at imperdiet lobortis, lorem velit facilisis sem, non tempus massa augue ac diam. Vestibulum vel venenatis magna. Mauris sapien erat, rutrum et luctus in, volutpat vitae lorem. Etiam vitae urna iaculis urna porttitor fringilla nec id erat. </p>
+            </div>
+            <div class="col-xs-24 col-sm-12 match-height-item-by-row">
+                <img class="img img-responsive" src="/images/interior-venue.jpg" />
+            </div>
+        </div>
+    </section>
+    
+    <section class="solstice-banner alt" id="agenda">
+        <div class="container">
+            <div class="agenda-items">
+                <h2>Agenda</h2>
+                <div class="row agenda-item" >
+                    <p class="col-xs-24 col-sm-6">9am - 9:45am</p>
+                    <p class="col-xs-24 col-sm-6">Session Name</p>
+                    <div class="col-xs-24 col-sm-12">
+                        <p>Speaker: John Doe</p>
+                        <p>Bio: Nam euismod molestie ornare. Donec ultricies consequat erat ut semper. Nullam purus ante, iaculis non luctus eget, blandit eu libero.</p>
+                    </div>
+                    <div class="clearfix" >&nbsp;</div>
+                </div>
+                <div class="row agenda-item" >
+                    <p class="col-xs-24 col-sm-6">10am - 10:30am</p>
+                    <p class="col-xs-24 col-sm-6">Session Name</p>
+                    <div class="col-xs-24 col-sm-12">
+                        <p>Speaker: John Doe</p>
+                        <p>Bio: Nam euismod molestie ornare. Donec ultricies consequat erat ut semper. Nullam purus ante, iaculis non luctus eget, blandit eu libero.</p>
+                    </div>
+                    <div class="clearfix" >&nbsp;</div>
+                </div>
+                <div class="row agenda-item" >
+                    <p class="col-xs-24 col-sm-6">11am - 11:40am</p>
+                    <p class="col-xs-24 col-sm-6">Session Name</p>
+                    <div class="col-xs-24 col-sm-12">
+                        <p>Speaker: John Doe</p>
+                        <p>Bio: Nam euismod molestie ornare. Donec ultricies consequat erat ut semper. Nullam purus ante, iaculis non luctus eget, blandit eu libero.</p>
+                    </div>
+                    <div class="clearfix" >&nbsp;</div>
+                </div>
+                <div class="row agenda-item" >
+                    <p class="col-xs-24 col-sm-6">12pm - 1:30pm</p>
+                    <p class="col-xs-24 col-sm-18">Lunch</p>
+                    <div class="clearfix" >&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container side-by-side" id="venue">
+        <div class="row">
+            <div class="col-xs-24 col-sm-12 match-height-item-by-row">
+                <h2 class="highlight left">Venue</h2>
+                <p>Vivamus lacinia laoreet purus, non maximus augue. Cras sodales tellus sed turpis bibendum, eu facilisis sapien ornare. Duis et augue purus. Proin orci felis, volutpat vel orci nec, facilisis finibus odio. Duis non odio molestie, malesuada ipsum vitae, finibus justo. Nullam eget est vulputate, congue diam vel, sagittis lorem. Curabitur interdum, libero at imperdiet lobortis, lorem velit facilisis sem, non tempus massa augue ac diam. Vestibulum vel venenatis magna. Mauris sapien erat, rutrum et luctus in, volutpat vitae lorem. Etiam vitae urna iaculis urna porttitor fringilla nec id erat. </p>
+            </div>
+            <div class="col-xs-24 col-sm-12 match-height-item-by-row">
+                <img class="img img-responsive" src="/images/venue.jpg" />
+            </div>
+        </div>
+    </section>
+    
+    <section class="solstice-banner alt text-center" id="save-the-date">
+        <div class="container">
+            <div class="row">
+                <h2>Save the date!</h2>
+                <p><a class="btn btn-secondary" href="#">Register Now!</a></p>
+            </div>
+        </div>
+    </section>
+    -->
+{{ end }}
