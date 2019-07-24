@@ -90,8 +90,16 @@ h2.highlight {
 }
 
 .side-by-side img {
-    margin: 40px auto;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    @media (min-width: 768px) {
+        padding-bottom: 20px;
+        padding-left: 40px;
+        max-width: 500px;
+        width: 50%;
+    }
 }
+
 
 .solstice-banner {
     & {
@@ -132,7 +140,11 @@ h2.highlight {
         color: #fff;
     }
 }
-
+@media (max-width: 991px) {
+  .featured-jumbotron h1 {
+    font-size: 52px;
+  }
+}
 footer#solstice-footer {
   padding-top:30px;
   padding-bottom:0;
