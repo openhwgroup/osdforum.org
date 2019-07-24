@@ -1,8 +1,7 @@
 ---
-title: "OSD Forum"
+title: "OSDForum"
 seo_title: "Open Source Developer Forum"
 headline: "OSDForum"
-subtitle: "Wednesday Sep 18th, Innovation Centre at Bayview Yards"
 tagline: |
   The Open Source Developer Forum is a one day workshop that brings open source software and hardware (chips, boards and systems) developers together to collaborate and learn. The agenda for the day will be published shortly and will include talks from leading industry and academic experts in the field of open source development and will also include a hands on bring up session of a RISC-V based development board that attendees can keep. Made possible by the generous support of our sponsors, the OSDForum is a non-profit event with low attendee fees of $50 for industry attendees and $25 for academic attendees (includes the full day of talks, breaks, lunch and a RISC-V development board).
   Registration is limited, so don't delay - register today!
