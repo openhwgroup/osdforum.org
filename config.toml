@@ -1,6 +1,6 @@
 baseurl = "https://www.osdforum.org/"
 DefaultContentLanguage = "en"
-title = "" 
+title = "OSDForum" 
 theme = "eclipsefdn-hugo-solstice-theme"
 metaDataFormat = "yaml"
 #googleAnalytics = ""
