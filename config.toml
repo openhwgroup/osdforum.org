@@ -37,7 +37,7 @@ themesDir = "node_modules/"
   twitter = "osdforum"
 # youtube = ""
 # googleplus = ""
-# linkedin = ""
+ linkedin = "osdforum"
 
 [permalinks]
   news = "/:sections/:year/:month/:day/:slug/"
