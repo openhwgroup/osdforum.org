@@ -24,6 +24,7 @@ themesDir = "node_modules/"
 # call_for_action_text = ""
 # call_for_action_url = ""
 # call_for_action_icon = ""
+  navbar_wrapper_classes = "background-white"
 
 [taxonomies]
   category = "categories"
