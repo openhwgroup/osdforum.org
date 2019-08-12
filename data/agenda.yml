@@ -1,0 +1,80 @@
+items:
+    - name: Registration & RISC-V Board Pick Up
+      start: 8:30am EDT
+    - name: Welcome, logistics, agenda outline, sponsor thank yous
+      presenter: 
+        - name: Rick O'Connor
+          affiliation: OpenHW Group
+      start: 9am EDT
+    - name: Open Source Processor IP - for High Volume SoCs
+      presenter: 
+        - name: Rick O'Connor
+          affiliation: OpenHW Group
+      start: 9:15am EDT
+    - name: Verification Challenges with Open Source IP
+      presenter: 
+        - name: Mike Thompson
+          affiliation: Verification Engineer
+      start: 9:45am EDT
+    - name: 'Kickstart RISC-V VM - a design environment. A pre-configured VM to enable Open Source Processor Development'
+      presenter: 
+        - name: Afredo Herrera
+          affiliation: BTA Design Services
+      start: 10:15am EDT
+      handson: true
+    - name: 30min Break
+      presenter: 
+      start: 10:45am EDT
+      affiliate: 
+    - name: 'Being Productive with Open Source Tools: Eclipse IDE and C/C++ Compiler'
+      presenter: 
+        - name: Jonah Graham
+          affiliation: Kichwa Coders
+      start: 11:15am EDT
+      handson: true
+    - name: Vega board SDK, open-isa.org and RV32M1
+      presenter: 
+        - name: Jerry Zeng
+          affiliation: NXP
+      start: 11:45am EDT
+      handson: true
+    - name: 45m Lunch
+      start: 12:30pm EDT
+    - name: Zephyr + IoT wireless connectivity using the Vega board
+      presenter: 
+        - name: Jerry Zeng
+          affiliation: NXP
+      start: 1:15pm EDT
+      handson: true
+    - name: Zephyr + MicroPython + Littlevgl on the Vega board
+      presenter: 
+        - name: Jerry Zeng
+          affiliation: NXP
+      start: 2pm EDT
+      handson: true
+    - name: 30m Break
+      start: 3pm EDT
+    - name: 'Panel Discussion: Open Source IP - Enabling Research in Academia'
+      start: 3:30pm EDT
+      presenter: 
+        - name: Guy Lemieux
+          affiliation: University of British Columbia
+        - name: Lesley Shannon
+          affiliation: Simon Fraser University
+        - name: Mickael Fiorentino
+          affiliation: Polytechnique Montréal
+        - name: Miodrag Bolic
+          affiliation: University of Ottawa
+        - name: Sebastian Magierowski
+          affiliation: York University
+        - name: Vaughn Betz
+          affiliation: University of Toronto
+        - name: Hugh Pollitt-Smith (Moderator)
+          affiliation: CMC Microsystems
+    - name: Closing Remarks
+      start: 4:50pm EDT
+      presenter: 
+        - name: Rick O'Connor
+          affiliation: OpenHW Group
+    - name: Adjourn
+      start: 5pm EDT
