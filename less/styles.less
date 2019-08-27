@@ -31,17 +31,28 @@
 }
 
 .featured-jumbotron {
-  h1 {
-    margin-bottom:20px;
-  }
   p {
-    margin-bottom: 30px;
+    margin-bottom: 0;
     font-size: 18px;
     font-weight: 500;
   }
   
+  p.headline {
+    margin: 25px 0;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  
   h1::after {
     border-bottom: none;
+  }
+  
+  a:not(.btn):not(.jumbotron-icon), a:not(.btn):not(.jumbotron-icon):visited {
+    color: white;
+    text-decoration: underline;
+  }
+  a:not(.btn):not(.jumbotron-icon):hover, a:not(.btn):not(.jumbotron-icon):focus {
+    font-weight: 700;
   }
 }
 
@@ -86,7 +97,7 @@ h2.highlight {
     }
 }
 
-.sponsor-images li img {
+.supporter-images li img {
     display: inline-block;
     max-height: 77px;
     padding-right: 25px;
@@ -111,6 +122,15 @@ h2.highlight {
     padding: 0 20px;
     font-style: italic;
     padding-bottom: 15px;
+}
+
+.featured-footer#featured-footer {
+  h2 {
+    color: #fff;
+  }
+  a.btn {
+    padding: 15px 60px;    
+  }
 }
 
 .solstice-banner {

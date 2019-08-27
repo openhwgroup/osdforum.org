@@ -1,0 +1,8 @@
+items:
+  -
+    title: Save the date!
+    link: <a class="btn btn-secondary" href="https://osdforum.eventbrite.com/">Register Now!</a>
+    bgImgSrc: /images/save-the-date.jpg
+    startDate: 2019-08-25
+    endDate: 2099-08-25
+    type: footer
