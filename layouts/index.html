@@ -7,10 +7,12 @@
 		<div class="jumbotron featured-jumbotron margin-bottom-0 padding-top-40">
 		  <div class="container">
 		    <div class="row">
-		      <div class="col-xs-24 padding-top-40">
+		      <div class="col-xs-24">
 		        <h1 class="sr-only">{{ .Page.Params.headline }}</h1>
 		        <img class="img img-responsive margin-auto" alt="OSDForum Logo in white" src="/images/osdforum_white.png" />
-		        <h2>Wednesday Sep 18th, 2019 | <a href="https://bayviewyards.org/">Innovation Centre at Bayview Yards</a>, Ottawa, Ontario</h2>
+		        <p class="headline">Wednesday Sep 18th, 2019</p>
+		        <p><a href="https://bayviewyards.org/">Innovation Centre at Bayview Yards</a></p>
+		        <p>Ottawa, Ontario</p>
 		      </div>
 		    </div>
 		  </div>
@@ -21,7 +23,7 @@
 
 {{ define "main" }}
 <div id="content">
-    <section class="container sponsor-images" id="sponsors">
+    <section class="container supporter-images" id="supporters">
         <div class="row">
             <h2 class="highlight">Sponsored by</h2>
         </div>
@@ -155,15 +157,6 @@
             </div> 
             <div class="col-xs-24 visible-xs">
                 <img class="img img-responsive" src="/images/venue.jpg" alt="Bayview Yards exterior" />
-            </div>
-        </div>
-    </section>
-    
-    <section class="solstice-banner alt text-center" id="save-the-date">
-        <div class="container">
-            <div class="row">
-                <h2>Save the date!</h2>
-                <p><a class="btn btn-secondary" href="https://osdforum.eventbrite.com/">Register Now!</a></p>
             </div>
         </div>
     </section>
