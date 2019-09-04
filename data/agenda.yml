@@ -18,7 +18,7 @@ items:
       start: 9:45am EDT
     - name: 'Kickstart RISC-V VM - a design environment. A pre-configured VM to enable Open Source Processor Development'
       presenter: 
-        - name: Afredo Herrera
+        - name: Alfredo Herrera
           affiliation: BTA Design Services
       start: 10:15am EDT
       handson: true
@@ -26,20 +26,20 @@ items:
       presenter: 
       start: 10:45am EDT
       affiliate: 
-    - name: 'Being Productive with Open Source Tools: Eclipse IDE and C/C++ Compiler'
-      presenter: 
-        - name: Jonah Graham
-          affiliation: Kichwa Coders
-      start: 11:15am EDT
-      handson: true
     - name: Vega board SDK, open-isa.org and RV32M1
       presenter: 
         - name: Jerry Zeng
           affiliation: NXP
+      start: 11:15am EDT
+      handson: true
+    - name: 'Being Productive with Open Source Tools: Eclipse IDE and C/C++ Compiler'
+      presenter: 
+        - name: Jonah Graham
+          affiliation: Kichwa Coders
       start: 11:45am EDT
       handson: true
-    - name: 45m Lunch
-      start: 12:30pm EDT
+    - name: 60m Lunch
+      start: 12:15pm EDT
     - name: Zephyr + IoT wireless connectivity using the Vega board
       presenter: 
         - name: Jerry Zeng

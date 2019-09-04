@@ -130,10 +130,11 @@
 		                    <td>{{ if eq .handson true }}<strong>Hands-on: </strong>{{ end }}{{ .name }}</td>
 		                    <td>
 		                      {{ if (isset $agendaItem "presenter") }}
-			                          <p>
+			                          <ul>
                                 {{ range $index, $p:=.presenter }}
-                                    {{ $p.name }} (<em>{{ $p.affiliation }}</em>){{ if ne (add $index 1) (len $agendaItem.presenter) }}, {{ end }}
-                                {{ end }}</p>
+                                    <li>{{ $p.name }} (<em>{{ $p.affiliation }}</em>)</li>
+                                {{ end }}
+                                </ul>
                               {{ end }}
 		                    </td>
 		                </tr>
