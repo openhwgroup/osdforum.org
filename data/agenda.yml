@@ -31,7 +31,6 @@ items:
         - name: Juan Carlos Pacheco
           affiliation: NXP
       start: 11:15am EDT
-      handson: true
     - name: 'Being Productive with Open Source Tools: Eclipse IDE and C/C++ Compiler'
       presenter: 
         - name: Jonah Graham
@@ -40,13 +39,13 @@ items:
       handson: true
     - name: 60m Lunch
       start: 12:15pm EDT
-    - name: Zephyr + IoT wireless connectivity using the Vega board
+    - name: SDK + IoT wireless connectivity using the Vega board
       presenter: 
         - name: Juan Carlos Pacheco
           affiliation: NXP
       start: 1:15pm EDT
       handson: true
-    - name: Zephyr + MicroPython + Littlevgl on the Vega board
+    - name: Zephyr + MicroPython on the Vega board
       presenter: 
         - name: Juan Carlos Pacheco
           affiliation: NXP
