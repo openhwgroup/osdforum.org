@@ -1,0 +1,52 @@
+<section class="solstice-banner alt" id="agenda">
+    <div class="container">
+      <h2>Agenda</h2>
+      <table class="table">
+   <colgroup>
+      <col span="1" style="width: 15%;">
+      <col span="1" style="width: 50%;">
+      <col span="1" style="width: 35%;">
+   </colgroup>
+      <thead>
+          <tr>
+              <th>Start time</th>
+              <th>Session Name</th>
+                <th>Presenter(s)</th>
+                <th class="text-center">Video</th>
+                <th class="text-center">Slides</th>
+          </tr>
+      </thead>
+      <tbody>
+          {{ range $agendaItem:=$.Site.Data.agenda.items }}
+              <tr>
+                        <td>{{ .start }}</td>
+                  <td>{{ if eq .handson true }}<strong>Hands-on: </strong>{{ end }}{{ .name }}</td>
+                    <td>
+                      {{ if (isset $agendaItem "presenter") }}
+                            <ul>
+                            {{ range $index, $p:=.presenter }}
+                                <li>{{ $p.name }} (<em>{{ $p.affiliation }}</em>)</li>
+                            {{ end }}
+                            </ul>
+                          {{ end }}
+                    </td>
+                    <td>
+                      {{ if (isset . "vod") }}
+                        <a class="btn btn-primary" href="{{ .vod }}" title="{{ .name }} VOD">
+                          <i class="fa fa-play"><span class="sr-only">Play</span></i>
+                        </a>
+                      {{ end }}
+                    </td>
+                    <td>
+                      {{ if (isset . "slides") }}
+                        <a class="btn btn-primary" href="{{ .slides }}" title="{{ .name }} Slides">
+                          <i class="fa fa-file"><span class="sr-only">Presentation</span></i>
+                        </a>
+                      {{ end }}
+                    </td>
+              </tr>
+          {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>
