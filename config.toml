@@ -47,3 +47,11 @@ enableRobotsTXT = true
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
+  
+[[menu.main]]
+  name = "Past events"
+  
+[[menu.main]]
+  name = "2019"
+  url = "/2019"
+  parent = "Past events"

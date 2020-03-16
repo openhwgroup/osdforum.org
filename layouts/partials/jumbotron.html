@@ -10,3 +10,24 @@
 
   SPDX-License-Identifier: EPL-2.0
 -->
+{{ if isset .Page.Params "headline" }}
+<div class="jumbotron featured-jumbotron margin-bottom-0 padding-top-40">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-24">
+        <h1 class="sr-only">{{ .Page.Params.headline }}</h1>
+        <img class="img img-responsive margin-auto" alt="OSDForum Logo in white" src="/images/osdforum_white.png" />
+        <p class="headline">{{ .Page.Params.tagline }}</p>
+        {{ if isset .Page.Params "links" }}
+        {{- with .Params.jumbotron_btn_class | default .Site.Params.jumbotron_btn_class | default "btn btn-primary"}}{{ $.Scratch.Set "jumbotron_btn" . }}{{end}}
+        <ul class="list-inline">
+          {{range $key,$val := index .Page.Params.links}}
+            <li><a class="{{ $.Scratch.Get "jumbotron_btn" }}" href="{{ (index $val 0).href}}">{{ (index $val 1).text}}</a></li>
+          {{end}} 
+        </ul>
+        {{end}}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
