@@ -1,0 +1,7 @@
+title: "About OSDForum"
+end_date: 2019-09-10T23:59:00-00:00
+custom_content: |
+  <div class="margin-bottom-20">
+    <img class="img img-responsive margin-auto" src="/images/risc-v-board.jpg" title="RISC-V dev board" />
+    <div class="image-caption text-center"><em>RISC-V dev board attendees will keep</em></div>
+  </div>
