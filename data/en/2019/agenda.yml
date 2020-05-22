@@ -1,34 +1,27 @@
+complete: true
 items:
     - name: Registration & RISC-V Board Pick Up
       start: 8:30am EDT
     - name: Welcome, logistics, agenda outline, sponsor thank yous
-      presenter: 
-        - name: Rick O'Connor
-          affiliation: OpenHW Group
+      presenter: Rick O'Connor (OpenHW Group)
       start: 9am EDT
       vod: https://www.youtube.com/watch?v=EwutD-ipblE&t=318s
       slides: /documents/osdforum-welcome.pdf
       
     - name: Open Source Processor IP - for High Volume SoCs
-      presenter: 
-        - name: Rick O'Connor
-          affiliation: OpenHW Group
+      presenter: Rick O'Connor (OpenHW Group)
       start: 9:15am EDT
       vod: https://www.youtube.com/watch?v=yvVaLZne3ZU
       slides: /documents/open-source-processor-ip.pdf
       
     - name: Verification Challenges with Open Source IP
-      presenter: 
-        - name: Mike Thompson
-          affiliation: Verification Engineer
+      presenter: Mike Thompson(Verification Engineer)
       start: 9:45am EDT
       vod: https://www.youtube.com/watch?v=QG5jIrs758Q
       slides: /documents/open-source-verification-challenges.pdf
       
     - name: 'Kickstart RISC-V VM - a design environment. A pre-configured VM to enable Open Source Processor Development'
-      presenter: 
-        - name: Alfredo Herrera
-          affiliation: BTA Design Services
+      presenter: Alfredo Herrera (BTA Design Services)
       start: 10:15am EDT
       handson: true
       vod: https://www.youtube.com/watch?v=SPqdZ4G6H5Q
@@ -38,17 +31,13 @@ items:
       start: 10:45am EDT
 
     - name: Vega board SDK, open-isa.org and RV32M1
-      presenter: 
-        - name: Juan Carlos Pacheco
-          affiliation: NXP
+      presenter: Juan Carlos Pacheco (NXP)
       start: 11:15am EDT
       vod: https://www.youtube.com/watch?v=BgJswdLYs4k
       slides: /documents/open-isa-vegaboard.pdf
       
     - name: 'Being Productive with Open Source Tools: Eclipse IDE and C/C++ Compiler'
-      presenter: 
-        - name: Jonah Graham
-          affiliation: Kichwa Coders
+      presenter: Jonah Graham (Kichwa Coders)
       start: 11:45am EDT
       handson: true
       vod: https://www.youtube.com/watch?v=uKFa-LVfp3g
@@ -58,18 +47,14 @@ items:
       start: 12:15pm EDT
       
     - name: SDK + IoT wireless connectivity using the Vega board
-      presenter: 
-        - name: Juan Carlos Pacheco
-          affiliation: NXP
+      presenter: Juan Carlos Pacheco (NXP)
       start: 1:15pm EDT
       handson: true
       vod: https://www.youtube.com/watch?v=U3SEj1C8otw
       slides: /documents/sdk-iot-vegaboard.pdf
       
     - name: Zephyr + MicroPython on the Vega board
-      presenter: 
-        - name: Juan Carlos Pacheco
-          affiliation: NXP
+      presenter: Juan Carlos Pacheco (NXP)
       start: 2pm EDT
       handson: true
       vod: https://www.youtube.com/watch?v=Cpvg0h2tyFQ
@@ -80,29 +65,20 @@ items:
       
     - name: 'Panel Discussion: Open Source IP - Enabling Research in Academia'
       start: 3:30pm EDT
-      presenter: 
-        - name: Guy Lemieux
-          affiliation: University of British Columbia
-        - name: Lesley Shannon
-          affiliation: Simon Fraser University
-        - name: Mickael Fiorentino
-          affiliation: Polytechnique Montréal
-        - name: Miodrag Bolic
-          affiliation: University of Ottawa
-        - name: Sebastian Magierowski
-          affiliation: York University
-        - name: Vaughn Betz
-          affiliation: University of Toronto
-        - name: Hugh Pollitt-Smith (Moderator)
-          affiliation: CMC Microsystems
+      presenters: 
+        - Guy Lemieux (University of British Columbia)
+        - Lesley Shannon(Simon Fraser University)
+        - Mickael Fiorentino(Polytechnique Montréal)
+        - Miodrag Bolic(University of Ottawa)
+        - Sebastian Magierowski(York University)
+        - Vaughn Betz(University of Toronto)
+        - Hugh Pollitt-Smith (Moderator)(CMC Microsystems)
       vod: https://www.youtube.com/watch?v=OeO1IdQ9Ahc
       slides: /documents/panel-discussion-cmc.pdf
           
     - name: Closing Remarks
       start: 4:50pm EDT
-      presenter: 
-        - name: Rick O'Connor
-          affiliation: OpenHW Group
+      presenter: Rick O'Connor (OpenHW Group)
           
     - name: Adjourn
       start: 5pm EDT
