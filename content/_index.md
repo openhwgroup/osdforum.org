@@ -2,7 +2,7 @@
 title: "OSDForum"
 seo_title: "Open Source Developer Forum"
 headline: "OSDForum"
-tagline: "Save the date September 15th, 2020"
+tagline: "Save the date September 15, 2020"
 hide_sidebar : true
 hide_page_title: true
 hide_breadcrumb: true
