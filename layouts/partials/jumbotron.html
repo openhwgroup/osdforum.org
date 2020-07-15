@@ -11,7 +11,7 @@
   SPDX-License-Identifier: EPL-2.0
 -->
 {{ if isset .Page.Params "headline" }}
-<div class="jumbotron featured-jumbotron margin-bottom-0 padding-top-40">
+<div class="{{ .Page.Params.jumbotron_classes | default "jumbotron featured-jumbotron margin-bottom-0 padding-top-40" }}">
   <div class="container">
     <div class="row">
       <div class="col-xs-24">
