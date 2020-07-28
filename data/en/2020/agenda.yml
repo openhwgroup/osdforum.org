@@ -1,0 +1,66 @@
+complete: false
+types:
+    - name: Standard Session
+      id: session
+      color: "#e44"
+    - name: Hands-on
+      id: hands-on
+      color: "#c6a061"
+    - name: Break
+      id: break
+items:
+    - name: Welcome, logistics, agenda outline, sponsor thank yous
+      time: 9:00am EDT
+      type: session
+
+    - name: Open Source Processor IP - for High Volume SoCs
+      presenter: Rick O'Connor (OpenHW Group)
+      time: 9:15am EDT
+      type: session
+      
+    - name: Overiew of CORE-V Cores
+      presenter: Davide Schiavone (OpenHW Group)
+      time: 9:45am EDT
+      type: session
+      
+    - name: Overview of CORE-V SDK Development Environment
+      presenter: Frédéric Desbien (Eclipse Foundation)
+      time: 10:15am EDT
+      type: session
+      
+    - name: 30min Break
+      time: 10:45am EDT
+      type: break
+      
+    - name: Overiew of CORE-V MCU & APU FPGA based platforms
+      presenter: Florian Zaruba (OpenHW Group)
+      time: 11:15am EDT
+      type: session
+
+    - name: Being Productive with Open Source Eclipse Development Tools
+      presenter: Jonah Graham (Kichwa Coders)
+      time: 11:45am EDT
+      type: hands-on
+      
+    - name: 60m Lunch
+      time: 12:15pm EDT
+      type: break
+      
+    - name: SDK + IoT wireless connectivity using the CORE-V MCU FPGA platform
+      presenter: Hugh Pollitt-Smith (CMC) + Guests
+      time: 1:15pm EDT
+      type: hands-on
+      
+    - name: CORE-V University Research Project 
+      presenter: TBA
+      time: 4:15pm EDT
+      type: session
+
+    - name: Closing Remarks
+      time: 4:45pm EDT
+      presenter: Rick O'Connor (OpenHW Group)
+      type: session
+          
+    - name: Adjourn
+      time: 5:00pm EDT
+      type: session
