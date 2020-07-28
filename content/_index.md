@@ -9,6 +9,7 @@ hide_breadcrumb: true
 date: 2019-07-14T15:50:25-04:00
 container: "container-fluid"
 jumbotron_classes: "jumbotron featured-jumbotron header-alternate-bg-img-1 margin-bottom-0 padding-top-40"
+show_featured_footer: false
 ---
 
 {{< grid/section-container id="supporters" >}}
@@ -21,4 +22,8 @@ jumbotron_classes: "jumbotron featured-jumbotron header-alternate-bg-img-1 margi
     
   The OSDForum is co-hosted by CMC Microsystems, the Eclipse Foundation and the OpenHW Group.
   {{</ events/registration >}}
+{{</ grid/section-container >}}
+
+{{< grid/section-container class="solstice-banner alt" id="agenda" >}}
+  {{< events/agenda event="2020" >}}
 {{</ grid/section-container >}}
