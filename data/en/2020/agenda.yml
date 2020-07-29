@@ -2,10 +2,10 @@ complete: false
 types:
     - name: Standard Session
       id: session
-      color: "#e44"
+      color: "#c6a061"
     - name: Hands-on
       id: hands-on
-      color: "#c6a061"
+      color: "#e44"
     - name: Break
       id: break
 items:
