@@ -10,6 +10,7 @@ date: 2019-07-14T15:50:25-04:00
 container: "container-fluid"
 jumbotron_classes: "jumbotron featured-jumbotron header-alternate-bg-img-1 margin-bottom-0 padding-top-40"
 show_featured_footer: false
+links: [[href: "https://www.eventbrite.com/e/osdforum-2020-registration-112889000038", text: "Register Now"]]
 ---
 
 {{< grid/section-container id="supporters" >}}
