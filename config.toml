@@ -49,6 +49,10 @@ enableRobotsTXT = true
   hrefTargetBlank = true
   
 [[menu.main]]
+  name = "Code of Conduct"
+  url = "https://events.eclipse.org/code-of-conduct/"
+
+[[menu.main]]
   name = "Past events"
   
 [[menu.main]]
