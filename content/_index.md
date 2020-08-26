@@ -27,4 +27,7 @@ links: [[href: "https://www.eventbrite.com/e/osdforum-2020-registration-11288900
 
 {{< grid/section-container class="solstice-banner alt" id="agenda" >}}
   {{< events/agenda event="2020" >}}
+  {{< grid/div class="text-center" isMarkdown="false" >}}
+    {{< bootstrap/button href="/documents/speaker-guide-osdforum.pdf" >}}Speaker Guide{{</ bootstrap/button >}}
+  {{</ grid/div >}}
 {{</ grid/section-container >}}
