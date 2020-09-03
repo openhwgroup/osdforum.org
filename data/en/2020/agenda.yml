@@ -18,13 +18,15 @@ items:
       time: 9:15am EDT
       type: session
       
-    - name: Overiew of CORE-V Cores
+    - name: Overiew of CORE-V CVE4, CVA6 & PULP Development at ETHZ
       presenter: Davide Schiavone (OpenHW Group)
       time: 9:45am EDT
       type: session
       
-    - name: Overview of CORE-V SDK Development Environment
-      presenter: Frédéric Desbien (Eclipse Foundation)
+    - name: ETHZ 'Arnold' Test Chip & the CORE-V MCU SoC Project Proposal
+      presenters: 
+        - Brian Faith (QuickLogic)
+        - Tim Saxe (QuickLogic)
       time: 10:15am EDT
       type: session
       
@@ -38,7 +40,9 @@ items:
       type: session
 
     - name: Being Productive with Open Source Eclipse Development Tools
-      presenter: Jonah Graham (Kichwa Coders)
+      presenters:
+        - Alexander Fedorov (ArSysOp)
+        - Frédéric Desbiens (Eclipse Foundation)
       time: 11:45am EDT
       type: hands-on
       
@@ -46,21 +50,37 @@ items:
       time: 12:15pm EDT
       type: break
       
-    - name: SDK + IoT wireless connectivity using the CORE-V MCU FPGA platform
-      presenter: Hugh Pollitt-Smith (CMC) + Guests
+    - name: Using the CORE-V MCU FPGA platform
+      presenter: Hugh Pollitt-Smith (CMC)
       time: 1:15pm EDT
       type: hands-on
       
-    - name: CORE-V University Research Project 
-      presenter: TBA
+    - name: CORE-V IDE
+      presenter: Roisin O'Keefe (Ashling)
+      type: hands-on
+      
+    - name: CORE-V GCC Tools
+      presenters:
+        - Mary Bennet (Embecosm)
+        - Pietra Ferreira (Embecosm)
+        - Jessica Mills (Embecosm)
+      type: hands-on
+      
+    - name: CORE-V CVE4 in Bluespec RISC-V Explorer
+      presenter: Charlie Hauck (Bluespec)
       time: 4:15pm EDT
+      type: session
+      
+    - name: RISC-V Chip for Mobile DNA Sequencing
+      presenter: Dr. Sebastian Magierowski (York University)
+      time: 4:45pm EDT
       type: session
 
     - name: Closing Remarks
-      time: 4:45pm EDT
+      time: 5:15pm EDT
       presenter: Rick O'Connor (OpenHW Group)
       type: session
           
     - name: Adjourn
-      time: 5:00pm EDT
+      time: 5:30pm EDT
       type: session
