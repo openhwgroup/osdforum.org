@@ -14,7 +14,10 @@ links: [[href: "https://www.eventbrite.com/e/osdforum-2020-registration-11288900
 ---
 
 {{< grid/section-container id="supporters" >}}
-  {{< events/sponsors title="OSDForum 2020 co-hosted by." headerClass="highlight text-center" event="2020" itemClass=" ">}}
+  {{< events/sponsors source="cohost" title="OSDForum 2020 co-hosted by" headerClass="highlight text-center" event="2020" itemClass=" ">}}
+{{</ grid/section-container >}}
+{{< grid/section-container id="supporters" >}}
+  {{< events/sponsors title="OSDForum 2020 sponsored by" headerClass="highlight text-center" event="2020" itemClass=" ">}}
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="about" class="side-by-side left-align" >}}
