@@ -1,4 +1,13 @@
 items:
+  - title: ARC
+    image: /images/sponsors/arc.png
+    url: https://arcglobal.fund/
+  - title: Ashling
+    image: /images/sponsors/ashling.png
+    url: http://www.ashling.com/
+  - title: Bluespec
+    image: /images/sponsors/bluespec.png
+    url: http://www.bluespec.com/
   - title: BTA Design Services
     image: /images/sponsors/bta-design-services.png
     url: https://www.btadesignservices.com/
@@ -8,3 +17,12 @@ items:
   - title: "Embecosm"
     image: "/images/sponsors/embecosm.png"
     url: "https://www.embecosm.com/"
+  - title: Global Foundries
+    image: /images/sponsors/global-foundries.png
+    url: http://www.globalfoundries.com/
+  - title: "Metrics"
+    image: "/images/sponsors/metrics.png"
+    url: "https://metrics.ca"
+  - title: QuickLogic
+    image: /images/sponsors/quicklogic.png
+    url: http://www.quicklogic.com/
