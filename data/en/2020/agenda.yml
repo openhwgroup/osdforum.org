@@ -67,7 +67,9 @@ items:
       type: hands-on
       
     - name: CORE-V CVE4 in Bluespec RISC-V Explorer
-      presenter: Charlie Hauck (Bluespec)
+      presenters: 
+        - Charlie Hauck (Bluespec)
+        - Joe Stoy (Bluespec)
       time: 4:15pm EDT
       type: session
       
