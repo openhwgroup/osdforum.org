@@ -1,4 +1,4 @@
-complete: false
+complete: true
 types:
     - name: Standard Session
       id: session
@@ -17,19 +17,25 @@ items:
       presenter: Rick O'Connor (OpenHW Group)
       time: 9:15am EDT
       type: session
+      vod: https://youtu.be/_D-ZUeqd4Hs
+      slides: /documents/2020/2020-915-open-source-processor-ip.pdf
       
     - name: Overiew of CORE-V CVE4, CVA6 & PULP Development at ETHZ
       presenter: Davide Schiavone (OpenHW Group)
       time: 9:45am EDT
       type: session
-      
+      vod: https://youtu.be/3XKzTjNyHT8
+      slides: /documents/2020/2020-945-overview-of-core-v-cve4-cva6-pulp.pdf
+
     - name: ETHZ 'Arnold' Test Chip & the CORE-V MCU SoC Project Proposal
       presenters: 
         - Brian Faith (QuickLogic)
         - Tim Saxe (QuickLogic)
       time: 10:15am EDT
       type: session
-      
+      vod: https://youtu.be/C3k8z9nMvII
+      slides: /documents/2020/2020-1015-ethz-arnold-test-chip-the-core-v-mcu-soc-project-proposal.pdf
+
     - name: 30min Break
       time: 10:45am EDT
       type: break
@@ -38,6 +44,8 @@ items:
       presenter: Florian Zaruba (OpenHW Group)
       time: 11:15am EDT
       type: session
+      vod: https://youtu.be/jPS3Urqmd4Q
+      slides: /documents/2020/2020-1115-overview-of-core-v-mcu-apu.pdf
 
     - name: Being Productive with Open Source Eclipse Development Tools
       presenters:
@@ -45,7 +53,9 @@ items:
         - Frédéric Desbiens (Eclipse Foundation)
       time: 11:45am EDT
       type: hands-on
-      
+      vod: https://youtu.be/dxO72R-dBWk
+      slides: /documents/2020/2020-1145-being-productive-with-open-source-eclipse-development-tools.pdf
+
     - name: 60m Lunch
       time: 12:15pm EDT
       type: break
@@ -54,35 +64,47 @@ items:
       presenter: Hugh Pollitt-Smith (CMC)
       time: 1:15pm EDT
       type: hands-on
-      
+      vod: https://youtu.be/b_rWumk3Fic
+      slides: /documents/2020/2020-1315-core-v-mcu-fpga-platform.pdf
+
     - name: CORE-V IDE
       presenter: Roisin O'Keefe (Ashling)
       type: hands-on
-      
+      vod: https://youtu.be/8nQjKbpejZo
+      slides: /documents/2020/2020-1415-core-v-ide.pdf
+
     - name: CORE-V GCC Tools
       presenters:
         - Mary Bennet (Embecosm)
         - Pietra Ferreira (Embecosm)
         - Jessica Mills (Embecosm)
       type: hands-on
-      
+      vod: https://youtu.be/xG-5XMfdYIQ
+      slides: /documents/2020/2020-1445-core-v-gcc-tools.pdf
+
     - name: CORE-V CVE4 in Bluespec RISC-V Explorer
       presenters: 
         - Charlie Hauck (Bluespec)
         - Joe Stoy (Bluespec)
       time: 4:15pm EDT
       type: session
-      
+      vod: https://youtu.be/PeGBvAe0yHw
+      slides: /documents/2020/2020-1615-core-v-cve4-in-bluespec-risc-v-explorer.pdf
+
     - name: RISC-V Chip for Mobile DNA Sequencing
       presenter: Dr. Sebastian Magierowski (York University)
       time: 4:45pm EDT
       type: session
+      vod: https://youtu.be/AOQ50uhhqSc
+      slides: /documents/2020/2020-1645-risc-v-chip-for-mobile-dna.pdf
 
     - name: Closing Remarks
       time: 5:15pm EDT
       presenter: Rick O'Connor (OpenHW Group)
       type: session
-          
+      vod: https://youtu.be/0hiCYSOK-ac
+      slides: /documents/2020/2020-1715-osdforum-summary-15-sep.pdf
+
     - name: Adjourn
       time: 5:30pm EDT
       type: session
