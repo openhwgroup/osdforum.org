@@ -262,8 +262,12 @@
     if (footerJson = JSON.parse(rawStoryJSON)) {
 
       
-      footerJson = footerJson.filter(a => new Date(a['endDate']) > new Date() && (a['startDate'] == undefined || new Date(a['startDate']) < new Date()))
-        .filter(a => a['type'] === "both" || a['type'] === "footer");
+      footerJson = footerJson.filter(function(a, idx) { 
+    	    return new Date(a['endDate']) > new Date() && (a['startDate'] == undefined || new Date(a['startDate']) < new Date());
+    	  })
+        .filter(function(a, idx) { 
+            return  a['type'] === "both" || a['type'] === "footer";
+        });
 
       
       if (footerJson.length > 1) {
