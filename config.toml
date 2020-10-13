@@ -26,6 +26,7 @@ enableRobotsTXT = true
 # call_for_action_url = ""
 # call_for_action_icon = ""
   navbar_wrapper_classes = "background-white"
+  featured_content_publish_target = "openhwgroup"
 
 [taxonomies]
   category = "categories"
