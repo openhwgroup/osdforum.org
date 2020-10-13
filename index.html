@@ -1217,9 +1217,30 @@ span.eclipsefdn-agenda-legend-icon-hands-on::after {
 </main>
   
   
+  <div class="featured-footer" id="featured-footer" data-publish-target="openhwgroup">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-24 featured-container">
+        </div>
+      </div>
+    </div>
+  </div>
+
   
 
 <footer id="solstice-footer">
+
+  
+  <div class="featured-footer" id="featured-footer" data-publish-target="openhwgroup">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-24 featured-container">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
@@ -1268,6 +1289,16 @@ span.eclipsefdn-agenda-legend-icon-hands-on::after {
 
 <script src="https://www.osdforum.org/js/solstice.js"></script>
 
+
+<script>
+  (function($, document) {
+    
+    $("#featured-footer").eclipseFdnApi({
+      type: "featuredFooter"
+    });
+    
+  })(jQuery, document);
+</script>
 
   
 </body>
