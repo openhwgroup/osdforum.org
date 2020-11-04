@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OSDForum</title>
@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>info@openhwgroup.org (OpenHW Group)</managingEditor>
     <webMaster>info@openhwgroup.org (OpenHW Group)</webMaster>
-    <lastBuildDate>Sun, 14 Jul 2019 15:50:25 -0400</lastBuildDate>
-    
-	<atom:link href="https://www.osdforum.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 14 Jul 2019 15:50:25 -0400</lastBuildDate><atom:link href="https://www.osdforum.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OSDForum</title>
       <link>https://www.osdforum.org/2019/</link>
