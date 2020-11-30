@@ -104,9 +104,18 @@ h2.highlight {
   list-style: none;
   padding-left: 0;
 }
-#agenda .btn {
-  padding: 5px 25px;
-  border-radius: 5px;
+
+#agenda {
+  .btn {
+    padding: 5px 25px;
+    border-radius: 5px;
+  }
+
+  @media (max-width: @screen-xs-max) {
+    .btn {
+      padding: 5px 10px;
+    }
+  }
 }
 
 .side-by-side img {
@@ -172,6 +181,15 @@ h2.highlight {
         color: #fff;
     }
 }
+
+.eclipsefdn-agenda-schedule {
+  @media (max-width: @screen-xs-max) {
+    table {
+      font-size: 12px;
+    }
+  }
+}
+
 @media (max-width: 991px) {
   .featured-jumbotron h1 {
     font-size: 52px;
