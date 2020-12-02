@@ -1,4 +1,4 @@
-baseurl = "https://www.osdforum.org/"
+baseurl = "https://osdforum.org/"
 DefaultContentLanguage = "en"
 title = "OSDForum" 
 theme = "eclipsefdn-hugo-solstice-theme"
