@@ -12,4 +12,3 @@
  */
 
 import 'eclipsefdn-solstice-assets';
-import './cookieconsent.js';
