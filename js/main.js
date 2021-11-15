@@ -11,4 +11,9 @@
  * SPDX-License-Identifier: EPL-2.0
  */
 
-import 'eclipsefdn-solstice-assets';
+import 'eclipsefdn-solstice-assets/js/api';
+import 'eclipsefdn-solstice-assets/js/ga';
+import './cookieconsent.js';
+import 'eclipsefdn-solstice-assets/js/privacy/eclipsefdn.videos';
+import 'eclipsefdn-solstice-assets/js/solstice';
+import 'eclipsefdn-solstice-assets/js/bootstrap';
