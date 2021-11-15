@@ -11,7 +11,7 @@ OpenHW Group is a not-for-profit, global organization driven by its members and 
 Install dependencies, build assets and start a webserver:
 
 ```bash
-npm install && hugo server
+yarn && hugo server
 ```
 
 ## Contributing

@@ -69,17 +69,3 @@
     </div>
   </div>
 </footer>
-<!-- Placed at the end of the document so the pages load faster -->
-{{- with .Site.Params.js | default "https://www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/main.min.js"}}
-<script src="{{ . | absURL }}"></script>
-{{ end }}
-
-<script>
-  (function($, document) {
-    {{ if ne .Page.Params.show_featured_footer false }}
-    $("{{ .Site.Params.featured_footer_selector | default "#featured-footer" }}").eclipseFdnApi({
-      type: "featuredFooter"
-    });
-    {{ end }}
-  })(jQuery, document);
-</script>
