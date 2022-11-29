@@ -2,5 +2,5 @@
 
 hugo (
   appName: 'osdforum.org',
-  productionDomain: 'osdforum.org',
+  productionDomain: 'www.osdforum.org',
 )
