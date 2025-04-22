@@ -5,6 +5,14 @@ The [osdforum.org](https://osdforum.org) website is generated with [Hugo](https:
 OpenHW Group is a not-for-profit, global organization driven by its members and individual contributors where hardware and software designers collaborate in the development of open-source cores, related IP, tools and software. OpenHW provides an infrastructure for hosting high quality open-source HW developments in line with industry best practices.
 
 ## Getting started
+### Required Software
+
+| Software  | Version   |
+|---        |---        |
+| node.js   | 22.14.4   |
+| npm       | 10.9.2    |
+| Hugo      | 0.144.2   |
+| Git       | > 2.31    |
 
 Install dependencies, build assets and start a webserver:
 
